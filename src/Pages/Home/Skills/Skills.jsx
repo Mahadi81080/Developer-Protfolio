@@ -11,7 +11,7 @@ import express from "../../../assets/Skills/Express.js.png";
 const Skills = () => {
   return (
     <div className="bg-[#1b1e26] text-white">
-      <div className="bg-[#fff2ec] py-20 px-14">
+      <div className="bg-[#fff2ec] py-20 px-8 md:px-10 lg:px-14">
         <h3 className="text-6xl font-semibold text-[#dd622d]">
           Skills
         </h3>

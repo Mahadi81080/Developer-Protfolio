@@ -5,12 +5,12 @@ import petPalsAdoptImg from "../../../assets/Projects/PetPalsAdopt.png";
 import { Link } from "react-router-dom";
 const Projects = () => {
   return (
-    <div className="flex justify-between items-center gap-10  bg-[#1b1e26] text-white">
-      <div className="w-7/12">
+    <div className="flex flex-col md:flex-row lg:flex-row  justify-between items-center gap-10  bg-[#1b1e26] text-white">
+      <div className="md:w-7/12 lg:w-7/12">
         <h2 className="text-6xl ml-10 py-7">Projects</h2>
         <img src={projectImg} alt="" className="w-full" />
       </div>
-      <div className="w-5/12 mt-20">
+      <div className="md:w-5/12 lg:w-5/12 mb-10 md:mt-20 lg:mt-20">
         <Link to="https://petpalsadopt-website.web.app" target="blank">
           <div className="flex items-center gap-2">
             <img src={petPalsAdoptImg} alt="" className="w-28" />

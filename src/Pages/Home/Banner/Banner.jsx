@@ -6,14 +6,14 @@ import Resume from "../../../../public/Web Developer Resume.pdf";
 import { Typewriter } from "react-simple-typewriter";
 const Banner = () => {
   return (
-    <div className="flex justify-between h-[500px]">
-      <div className="bg-[#de622f] flex-1 flex py-10 px-10 gap-2">
-        <img src={img2} alt="" className="h-48" />
+    <div className="flex flex-col-reverse md:flex-row lg:flex-row justify-between h-[500px] mt-80 md:mt-0 lg:mt-0">
+      <div className="bg-[#de622f] md:flex-1 lg:flex-1 flex py-10 lg:px-10 gap-2">
+        <img src={img2} alt="" className="h-40 md:h-48 lg:h-48" />
         <div className="text-white mt-4 space-y-2">
-          <h2 className="text-6xl">
+          <h2 className="text-5xl md:text-6xl lg:text-6xl">
             Md.Mahadi <br /> Hasan
           </h2>
-          <h4 className="uppercase text-xl pb-7">
+          <h4 className="uppercase text-base md:text-xl lg:text-xl pb-7">
             <Typewriter
               words={["Web development Services"]}
               loop={5}
@@ -33,7 +33,7 @@ const Banner = () => {
           </a>
         </div>
       </div>
-      <div className="w-5/12 relative">
+      <div className="w-full md:w-5/12 lg:w-5/12 relative">
         <img src={img} alt="" className="h-full w-full bg-[#1b1e26]" />
         <div className="bg-[#1b1e26] text-white flex justify-evenly items-center gap-5 py-3 absolute bottom-0 w-full">
           <p className="text-lg">

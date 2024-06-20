@@ -10,7 +10,7 @@ const Services = () => {
           Services <br /> Offered
         </h3>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
         <div className="bg-[#dd622d] px-4 py-5 space-y-3">
           <h3 className="text-xl text-white text-center">
             Full Stack <br /> Development
